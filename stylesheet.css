@@ -1,0 +1,391 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #213045;
+    margin: 0;
+    padding: 0;
+   
+    
+}
+
+
+#logo img{
+    border-radius: 174px;
+    width: 300px;
+    border: 20px solid #64141B;     
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    box-shadow: 10px 20px 200px rgba(30, 30, 30, 5.9);
+       
+}
+
+
+
+header {
+  color: #fff;
+  text-align: center;
+  padding: 4em 0;
+  background-color: #590A05;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 10px 20px 30px rgba(0, 0, 0, 5.5);
+  
+  
+}
+header h1 {
+  font-size: 90px;
+  color: #ffffff;
+  
+    
+}
+
+
+
+.character-box {
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    
+    
+     
+    
+}
+
+.character-card {
+    
+    
+    
+    
+    
+    
+}
+
+.character-card h2 {
+    font-family: fonts;
+    font-size: 3.5rem;
+    margin-bottom: 50px;
+    color: white;
+    align-content: center;
+    text-align: center;
+    text-shadow: #2b82ff 3px 3px 4px;
+}
+
+.character-card p {
+    font-family: fonts;
+    color: white;
+    font-size: 30px;
+    padding-left: -50px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+.paragraph1-box {
+    
+    margin: auto;
+    margin-bottom: 18px;
+    
+    
+    color: #f1f4bd;
+    
+     
+}
+
+.skill-box {
+    margin: 10px;
+    background-color: #213045;
+    color: #eae8e9;
+    
+    font-size: 30px;
+    
+    
+}
+
+
+
+
+
+
+
+
+.gallery .anime-card{
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  ;
+   
+  
+}
+
+.gallery .anime-card{
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  ;
+   
+  
+}
+
+.anime-card {
+  
+  align-item: flex;
+  box-border: 1em;
+  padding: 1em;
+  
+ 
+}
+
+.anime-card img {
+  max-width: 90%;
+  border-radius: 10px;
+  padding: 0em;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 5.2);
+  
+  background: linear-gradient(45deg, #213045, );
+    border: 0px solid transparent;
+    border-image: linear-gradient(45deg, #000b76, );
+    border-image-slice: 1;
+    animation: glow 1s infinite alternate;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 5.7);
+    margin: 50px auto;
+        }
+
+@keyframes glow {
+            0% {
+    border-image-source: linear-gradient(45deg, #080076, #76140a);
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
+            }
+            100% {
+    border-image-source: linear-gradient(45deg, #961f00, #000b76);
+    box-shadow: 0 0 20px rgba(255, 0, 255, 0.9);
+            }
+        }
+  
+
+
+.anime-card img:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+.name-box b {  
+    font-size: 50px;  
+    color: #eae8e9;
+    display: flex;
+    flex-wrap: warp;
+    justify-content: center;
+    padding: 10px;  
+    display: flex;
+    max-width: 400px;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: -50px;
+    text-shadow: #2b82ff 3px 3px 4px;
+    font-family: fonts;
+    
+    
+}
+
+
+
+
+
+.namee-box b {  
+    color: #eae8e9;
+    font-size: 45px;
+    margin-bottom: 100px;
+    align-content: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    text-shadow: #2b82ff 3px 3px 4px;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+.navigation{
+    margin: 50px 0;
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.navigation ul{
+    display: flex;
+    list-style: none;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    
+}
+
+.navigation ul li a{
+    font-size: 2.1rem;
+    color: #ffffff;
+    padding: 10px;
+    
+    
+    
+}
+
+.navigation ul li a:hover{
+    opacity: 1;
+    
+}
+
+
+
+
+
+
+
+
+
+
+.logos{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: auto;
+    transition: transform 0.5s ease-in-out;
+  }
+.logos .Lia:hover{
+  transform: scale(1.2); 
+  color: #7C2324;
+}
+.logos .Bry:hover{
+  transform: scale(1.2); 
+  color: #7C2324;
+}
+.logos .Cheng:hover{
+  transform: scale(1.2); 
+  color: #7C2324;
+}
+.logos .Oriel:hover{
+  transform: scale(1.2); 
+  color: #55c210;
+  
+}
+  .logos a img{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+    border-radius: 100px;
+    margin-top: 20px;
+    margin: 10px;
+    height: 80px;
+  }
+  h3{
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: serif;
+    color: #eae8e9;
+    
+  }
+
+    
+
+
+
+
+footer{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    background-color: #590A05;
+    border-radius: 1px;
+    box-shadow: 10px 20px 30px rgba(0, 0, 0, 5.5);
+}
+
+.footerContainer{
+    width: 100%;
+    height: 0%;
+    padding: 0px;
+    box-shadow: 10px 20px 30px rgba(0, 0, 0, 5.5);
+}
+
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: #ffffff;
+    margin: 20px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 5.5);
+}
+
+.socialIcons a i{
+    font-size: 3em;
+    color: #ff4a2b;
+    opacity: 0.9;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+/* Hover Effects on Socoal Media Icons */
+
+.socialIcons a:hover{
+    background-color: #590A05;
+    transition: 0.5s;
+}
+
+.socialIcons a:hover i{
+    color: #101bc2;
+    transition: 0.5s;
+    
+}
+
+.footerBottom{
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 2em;
+}
